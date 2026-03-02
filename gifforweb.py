@@ -218,7 +218,7 @@ def main():
         print("Input file must be a GIF")
         sys.exit(1)
 
-    # Define the destination folder as "news gif folder" inside "C:\Users\david\Downloads"
+    # Define the destination folder as "news gif folder" inside "C:\Users\USERNAME\Downloads"
     destination_dir = os.path.join("C:\\Users\\david\\Downloads", "news gif folder")
     os.makedirs(destination_dir, exist_ok=True)
 

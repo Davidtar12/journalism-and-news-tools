@@ -54,7 +54,7 @@ webpage_urls = [
     
     # Add more URLs as needed
 ]
-save_dir = r"C:\Users\david\Downloads"
+save_dir = r"C:\Users\USERNAME\Downloads"
 
 for url in webpage_urls:
     download_first_image_from_webpage(url, save_dir),

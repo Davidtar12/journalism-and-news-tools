@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Replace with the full path to your Excel file.
-excel_file_path = r"C:\Users\david\Downloads\CP\Email lists\abonados,exabonados\audience_export_d0d01fdced (1)\abonados.xlsx"
+excel_file_path = r"C:\Users\USERNAME\Downloads\CP\Email lists\abonados,exabonados\audience_export_d0d01fdced (1)\abonados.xlsx"
 
 # Read the Excel file (by default, reads the first sheet)
 df = pd.read_excel(excel_file_path)
