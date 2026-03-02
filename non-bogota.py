@@ -15,7 +15,7 @@ import os
 
 # Configuration
 PROPERTY_ID = os.getenv("GA4_PROPERTY_ID", "YOUR_GA4_PROPERTY_ID")  # set in .env
-CREDENTIALS_PATH = r"C:\Users\david\OneDrive\Documents\DS - Coding - Python\CP\YOUR_SERVICE_ACCOUNT.json"
+CREDENTIALS_PATH = os.getenv("GA4_CREDENTIALS_PATH", "credentials.json")
 
 
 def run_report():

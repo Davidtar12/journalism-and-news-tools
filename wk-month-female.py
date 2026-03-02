@@ -5,7 +5,7 @@ import pandas as pd
 import os
 
 # Replace with your values
-PROPERTY_ID = os.getenv("GA4_PROPERTY_ID", "YOUR_GA4_PROPERTY_ID")  # set in .envCREDENTIALS_PATH = r"C:\Users\david\OneDrive\Documents\DS - Coding - Python\CP\YOUR_SERVICE_ACCOUNT.json"
+PROPERTY_ID = os.getenv("GA4_PROPERTY_ID", "YOUR_GA4_PROPERTY_ID")  # set in .envCREDENTIALS_PATH = os.getenv("GA4_CREDENTIALS_PATH", "credentials.json")
 
 # Authenticate
 client = BetaAnalyticsDataClient.from_service_account_file(CREDENTIALS_PATH)
